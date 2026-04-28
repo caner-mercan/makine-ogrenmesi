@@ -1,2 +1,2 @@
-# makina-renmesi
+# makina-öğrenmesi
 göğüs kanseri
