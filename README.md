@@ -1,4 +1,4 @@
-# makina-öğrenmesi
+# makine-öğrenmesi
 gögüs kanseri tahmini 
 
 ## Proje Özeti
