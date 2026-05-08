@@ -32,7 +32,7 @@ Bu proje, hücre özelliklerine dayanarak tümörlerin **Kötü Huylu (Malignant
 Projeyi kendi bilgisayarınızda veya yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
 1. **Projeyi Klonlayın:**
-   git clone https://github.com/caylak36-oss/makina-renmesi.git
+   git clone https://github.com/caner-mercan/makina-renmesi.git
 
 2. **Gerekli Kütüphaneleri Kurun:**
    Projeyi sorunsuz çalıştırabilmek için Python ortamınızda temel veri bilimi kütüphanelerinin yüklü olması gerekir. Terminal veya komut satırınıza şu kodu yazarak kurulum yapabilirsiniz:
