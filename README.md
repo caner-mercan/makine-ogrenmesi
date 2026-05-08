@@ -1,5 +1,5 @@
 # makine-öğrenmesi
-gögüs kanseri tahmini 
+MEME KANSERİ TEŞHİSİ
 
 ## Proje Özeti
 Bu proje, hücre özelliklerine dayanarak tümörlerin **Kötü Huylu (Malignant)** veya **İyi Huylu (Benign)** olup olmadığını tahmin etmeyi amaçlamaktadır. Projede veri ön işleme, ölçeklendirme ve temel makine öğrenmesi sınıflandırma algoritmaları (Logistic Regression ve Random Forest) kullanılmış, modellerin performansları karşılaştırılmıştır.
