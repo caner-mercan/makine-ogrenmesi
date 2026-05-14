@@ -1,44 +1,35 @@
-# makine-öğrenmesi
-MEME KANSERİ TEŞHİSİ
+# 🤖 Makine Öğrenmesi Projesi
 
-## Proje Özeti
-Bu proje, hücre özelliklerine dayanarak tümörlerin **Kötü Huylu (Malignant)** veya **İyi Huylu (Benign)** olup olmadığını tahmin etmeyi amaçlamaktadır. Projede veri ön işleme, ölçeklendirme ve temel makine öğrenmesi sınıflandırma algoritmaları (Logistic Regression ve Random Forest) kullanılmış, modellerin performansları karşılaştırılmıştır.
+Bu proje, [Projenin Amacı: Örn. Konut fiyat tahmini, müşteri segmentasyonu vb.] amacıyla geliştirilmiş bir makine öğrenmesi çalışmasıdır. Proje kapsamında verilerin temizlenmesi, analizi ve çeşitli algoritmalarla modelleme süreçleri gerçekleştirilmiştir.
 
-## Kullanılan Teknolojiler ve Kütüphaneler
-* **Dil:** Python
-* **Geliştirme Ortamı:** Google Colab / Jupyter Notebook
-* **Veri Manipülasyonu:** Pandas
-* **Görselleştirme:** Matplotlib, Seaborn
-* **Makine Öğrenmesi:** Scikit-Learn
+## 🚀 Proje Hakkında
+Bu çalışmada aşağıdaki problemler üzerinde durulmuştur:
+- Veri setindeki eksik ve aykırı değerlerin işlenmesi.
+- Özellik mühendisliği (Feature Engineering) ile model başarısının artırılması.
+- Farklı modellerin (Regression, Classification vb.) performans karşılaştırması.
 
-## Proje Adımları (İş Akışı)
-1. **Veri Ön İşleme (Data Preprocessing):** Modeli yanıltmaması adına hedef değişkenle ilgisi olmayan `id` ve boş olan `Unnamed: 32` sütunları veri setinden çıkarıldı. Hedef değişken olan `diagnosis` (teşhis) sütunundaki kategorik veriler sayısallaştırıldı: Kötü huylu (M) `1`, iyi huylu (B) `0` olarak etiketlendi.
-2. **Veri Görselleştirme:** Hedef değişkenin sınıflar arası dağılımı Seaborn kullanılarak görselleştirildi.
-3. **Özellik Ölçeklendirme (Feature Scaling):** Farklı birimlerdeki verilerin modeli domine etmesini engellemek için `StandardScaler` kullanılarak veriler standartlaştırıldı.
-4. **Model Eğitimi:** Veri seti %80 Eğitim (Train) ve %20 Test olacak şekilde ikiye ayrıldı. Lojistik Regresyon ve Random Forest algoritmaları kullanılarak modeller eğitildi.
+## 📊 Veri Seti
+Kullanılan veri seti: [Veri setinin adı veya linki]
+- **Gözlem Sayısı:** [Örn: 5000]
+- **Özellik (Feature) Sayısı:** [Örn: 15]
+- **Hedef Değişken:** [Örn: Satış Fiyatı]
 
-## Sonuçlar ve Performans Karşılaştırması
-İki farklı makine öğrenmesi modeli test verisi üzerinde değerlendirilmiş ve aşağıdaki sonuçlar elde edilmiştir:
+## 🛠️ Kullanılan Teknolojiler
+Proje geliştirilirken aşağıdaki kütüphaneler ve araçlar kullanılmıştır:
+- **Python** (Temel dil)
+- **Pandas & NumPy** (Veri manipülasyonu)
+- **Matplotlib & Seaborn** (Veri görselleştirme)
+- **Scikit-Learn** (Model oluşturma ve değerlendirme)
+- **Jupyter Notebook** (Geliştirme ortamı)
 
-* **Logistic Regression:**
-  * **Doğruluk (Accuracy):** %97.37
-* **Random Forest:**
-  * **Doğruluk (Accuracy):** %96.49
-  * **Kesinlik (Precision):** %97.56
-  * **Duyarlılık (Recall):** %93.02
-  * **F1-Score:** 0.9524
+## 📈 Model Sonuçları
+En iyi sonuç veren model: **[Model Adı]**
+- **Accuracy / R2 Score:** %XX
+- **Hata Payı (MSE/MAE):** X.XX
 
-## Nasıl Çalıştırılır?
-Projeyi kendi bilgisayarınızda veya yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+## 💻 Kurulum ve Çalıştırma
+Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyebilirsiniz:
 
-1. **Projeyi Klonlayın:**
-   git clone https://github.com/caner-mercan/makina-ogrenmesi.git
-
-2. **Gerekli Kütüphaneleri Kurun:**
-   Projeyi sorunsuz çalıştırabilmek için Python ortamınızda temel veri bilimi kütüphanelerinin yüklü olması gerekir. Terminal veya komut satırınıza şu kodu yazarak kurulum yapabilirsiniz:
-   pip install pandas scikit-learn matplotlib seaborn
-
-3. **Projeyi Açın ve Çalıştırın:**
-   * İndirdiğiniz klasörün içindeki `gögüs_kanseri.ipynb` dosyasını Jupyter Notebook, JupyterLab veya Google Colab üzerinden açın.
-   * Eğer Google Colab kullanıyorsanız, projede kullanılan veri setini çalışma ortamına yüklemeyi unutmayın.
-   * Kod hücrelerini baştan sona sırasıyla çalıştırarak model sonuçlarını ve grafikleri kendi ekranınızda inceleyebilirsiniz.
+1. Bu depoyu klonlayın:
+   ```bash
+   git clone [https://github.com/caner-mercan/makine-ogrenmesi.git](https://github.com/caner-mercan/makine-ogrenmesi.git)
