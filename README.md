@@ -1,35 +1,37 @@
-# 🤖 Makine Öğrenmesi Projesi
+# 🎗️ Makine Öğrenmesi ile Göğüs Kanseri Teşhisi
 
-Bu proje, [Projenin Amacı: Örn. Konut fiyat tahmini, müşteri segmentasyonu vb.] amacıyla geliştirilmiş bir makine öğrenmesi çalışmasıdır. Proje kapsamında verilerin temizlenmesi, analizi ve çeşitli algoritmalarla modelleme süreçleri gerçekleştirilmiştir.
+Bu proje, tıbbi veri setleri üzerinde makine öğrenmesi tekniklerini kullanarak **Göğüs Kanseri (Breast Cancer)** teşhisi ve sınıflandırması yapmaktadır. Çalışma kapsamında hücre özelliklerine dayalı olarak tümörlerin **İyi Huylu (Benign)** veya **Kötü Huylu (Malignant)** olarak ayrıştırılması hedeflenmiştir.
 
-## 🚀 Proje Hakkında
-Bu çalışmada aşağıdaki problemler üzerinde durulmuştur:
-- Veri setindeki eksik ve aykırı değerlerin işlenmesi.
-- Özellik mühendisliği (Feature Engineering) ile model başarısının artırılması.
-- Farklı modellerin (Regression, Classification vb.) performans karşılaştırması.
+---
 
-## 📊 Veri Seti
-Kullanılan veri seti: [Veri setinin adı veya linki]
-- **Gözlem Sayısı:** [Örn: 5000]
-- **Özellik (Feature) Sayısı:** [Örn: 15]
-- **Hedef Değişken:** [Örn: Satış Fiyatı]
+## 📝 Proje Hakkında
+Bu çalışma, bir teknik eğitim sürecinin parçası olarak geliştirilmiştir ve veri bilimi metodolojilerini uçtan uca kapsamaktadır. Projenin temel amacı, teşhis süreçlerinde insan hatasını minimize edebilecek yüksek doğruluklu bir tahmin modeli oluşturmaktır.
+
+## 📊 Veri Seti Detayları
+Projede **UCI Machine Learning Repository** üzerinden sağlanan "Breast Cancer Wisconsin (Diagnostic)" veri seti kullanılmıştır.
+* **Örnek Sayısı:** 569.
+* **Öznitelik Sayısı:** 30 (Yarıçap, doku, çevre, alan vb.).
+* **Hedef Değişken:** Tanı (M/B).
 
 ## 🛠️ Kullanılan Teknolojiler
-Proje geliştirilirken aşağıdaki kütüphaneler ve araçlar kullanılmıştır:
-- **Python** (Temel dil)
-- **Pandas & NumPy** (Veri manipülasyonu)
-- **Matplotlib & Seaborn** (Veri görselleştirme)
-- **Scikit-Learn** (Model oluşturma ve değerlendirme)
-- **Jupyter Notebook** (Geliştirme ortamı)
+Proje geliştirilirken aşağıdaki teknik araçlar ve kütüphaneler kullanılmıştır:
+* **Python**: Temel programlama dili.
+* **Pandas & NumPy**: Veri işleme ve matris operasyonları.
+* **Matplotlib & Seaborn**: Veri görselleştirme ve korelasyon analizleri.
+* **Scikit-Learn**: Model eğitimi, veri ölçeklendirme ve performans metrikleri.
 
-## 📈 Model Sonuçları
-En iyi sonuç veren model: **[Model Adı]**
-- **Accuracy / R2 Score:** %XX
-- **Hata Payı (MSE/MAE):** X.XX
+## 📈 Uygulama Adımları
+1. **Veri Ön İşleme:** Eksik verilerin kontrolü ve `StandardScaler` ile verilerin normalize edilmesi.
+2. **Keşifçi Veri Analizi (EDA):** Tümör özelliklerinin birbirleriyle olan ilişkilerinin heatmap üzerinden incelenmesi.
+3. **Model Eğitimi:** Lojistik Regresyon, Random Forest ve SVM gibi algoritmaların uygulanması.
+4. **Değerlendirme:** Karmaşıklık matrisi (Confusion Matrix) ve sınıflandırma raporları ile modelin test edilmesi.
 
-## 💻 Kurulum ve Çalıştırma
-Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyebilirsiniz:
+## 📊 Model Performansı
+Yapılan testler sonucunda elde edilen başarı oranları aşağıdaki gibidir:
 
-1. Bu depoyu klonlayın:
-   ```bash
-   git clone [https://github.com/caner-mercan/makine-ogrenmesi.git](https://github.com/caner-mercan/makine-ogrenmesi.git)
+| Metrik | Değer |
+| :--- | :--- |
+| Doğruluk (Accuracy) | %XX |
+| Hassasiyet (Precision) | 0.XX |
+| Duyarlılık (Recall) | 0.XX |
+| F1-Skoru
