@@ -87,7 +87,7 @@ Bu proje, bir ekip çalışması olarak akademik standartlarda geliştirilmişti
 | Geliştirici | Rol | Bağlantı |
 | :--- | :--- | :--- |
 | **Caner Mercan** | Veri Bilimi & ML Geliştirici | https://github.com/caner-mercan |
-| **Hamza Uludağ** | Veri Bilimi & ML Geliştirici | [GitHub](https://github.com/hamza-uludag) |
+| **Hamza Uludağ** | Veri Bilimi & ML Geliştirici | https://github.com/uludaghamza98-web|
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
